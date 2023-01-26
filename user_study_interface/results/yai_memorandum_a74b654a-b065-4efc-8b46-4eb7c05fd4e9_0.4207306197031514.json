@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 4,
+    "What is your unique Prolific ID?": "611e59bf6f0056574f86cf24",
+    "Age": "22",
+    "Gender": "Male",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C2 (very high)",
+    "What is your experience in legal writing?": "Medium",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 5,
+                "optimal": 5
+            },
+            "elapsed_seconds": 361
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 5,
+                "archetypal": 5,
+                "optimal": 4
+            },
+            "elapsed_seconds": 357
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 1,
+                "archetypal": 5,
+                "optimal": 4
+            },
+            "elapsed_seconds": 316
+        }
+    ],
+    "qualitative_feedback": "The explanations are well received but there are parts where a lot of Acronyms are used and people might have a hard time understanding the main idea of the written work. When the explanation are put in subheading it\u00e2\u0080\u0099s easier to understand them. "
+}

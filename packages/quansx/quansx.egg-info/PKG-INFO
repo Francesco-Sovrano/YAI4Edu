@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: quansx
+Version: 1.1
+Summary: A plugin for extracting pairs of questions and answers out of natural language documents.
+Home-page: https://www.unibo.it/sitoweb/francesco.sovrano2/en
+Author: Francesco Sovrano
+Author-email: cesco.sovrano@gmail.com
+License: MIT
+Requires-Python: >=3.6

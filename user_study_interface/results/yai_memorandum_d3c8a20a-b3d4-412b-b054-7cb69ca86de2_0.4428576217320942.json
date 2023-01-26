@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 1,
+    "What is your unique Prolific ID?": "6159fe5b8d1745274a38149b",
+    "Age": "23",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C1",
+    "What is your experience in legal writing?": "Low",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "optimal": 5,
+                "random": 4
+            },
+            "elapsed_seconds": 703
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "optimal": 3,
+                "random": 3
+            },
+            "elapsed_seconds": 121
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 4,
+                "optimal": 3,
+                "random": 4
+            },
+            "elapsed_seconds": 68
+        }
+    ],
+    "qualitative_feedback": "The more lengthy explanations offer more details and gives the reader a greater understanding but can feel a bit harder to read rather than the hoe what and why"
+}

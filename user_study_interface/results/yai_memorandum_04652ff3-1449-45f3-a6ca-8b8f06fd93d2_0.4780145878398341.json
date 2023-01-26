@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 3,
+    "What is your unique Prolific ID?": "612b47fce0d4f1a36ff8a758",
+    "Age": "25",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C2 (very high)",
+    "What is your experience in legal writing?": "Low",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "optimal": 3,
+                "archetypal": 5,
+                "random": 5
+            },
+            "elapsed_seconds": 701
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "optimal": 3,
+                "archetypal": 5,
+                "random": 1
+            },
+            "elapsed_seconds": 385
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "optimal": 4,
+                "archetypal": 1,
+                "random": 5
+            },
+            "elapsed_seconds": 314
+        }
+    ],
+    "qualitative_feedback": "I would make them more shorter and easy to understand for everyone. I would also shorten the case references "
+}

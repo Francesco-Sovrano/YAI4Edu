@@ -1,0 +1,104 @@
+body {
+/*  font-size: 14px;*/
+  line-height: normal;
+  overflow-wrap: break-word;
+}
+
+/*#initial_explanans .link:after {
+    font-family: FontAwesome;
+    content: "\f05a";
+    display:inline-block;
+    position: relative;
+    top:-5px;
+    font-size: 75%;
+}
+
+.template_tree .link:after {
+    content: "" !important;
+    top: 0px !important;
+    font-size: 0% !important;
+}*/
+
+.detail_btn {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pdf-pages-container {
+  position: relative;
+  width: fit-content;
+}
+
+.pdf-page-container {
+  position: relative;
+  width: fit-content;
+}
+
+.pdf-text-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  /*opacity: 0.2;*/
+  color: transparent;
+  line-height: 1;
+}
+
+.pdf-text-layer > span {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.2rem;
+ 
+  /* Position the tooltip text - see examples below! */
+  width: auto;
+  position: absolute;
+  z-index: -1;
+  bottom: 150%;
+  margin-left: -5em; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.link:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*.card-header .btn {
+  text-align: left;
+} */
+
+.scrollspy ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+.scrollspy ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}

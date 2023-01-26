@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 4,
+    "What is your unique Prolific ID?": "615bc62f5029b0346f4ece99",
+    "Age": "23",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C1",
+    "What is your experience in legal writing?": "None",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "optimal": 4,
+                "random": 5
+            },
+            "elapsed_seconds": 357
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "optimal": 3,
+                "random": 4
+            },
+            "elapsed_seconds": 61
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 2,
+                "optimal": 3,
+                "random": 4
+            },
+            "elapsed_seconds": 65
+        }
+    ],
+    "qualitative_feedback": "The explanations given had different levels of depth as to the different questions given. It also had more detail and legal terms of the different questions and if you had any query on the first explanation, it would be clear legally and for those who had prefered a simple explanation, the would get."
+}

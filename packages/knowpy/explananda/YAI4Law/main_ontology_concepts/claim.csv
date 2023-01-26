@@ -1,0 +1,9 @@
+SubClasses;Values;Description
+Matter;(Civil/Commercial);the activities involved in managing all the aspects of a claim 
+Object;(Contract/Tort/DamagesRestitution/CriminalProceedings/Recovery/Ownership/culturalObject/Establishment/Trust/Remuneration/Fact/RightsInRem/Liability/LimitationOfLiability/ImmovableProperty;the object of the claim
+Purpose;(RemoveDefendant);the individual  motive pursued in starting the claim
+Court;(Country, Court);the court in wich a claim is active 
+Seised;(Country, Court);the court in wich a claim has been started but the defendant has not yet entered
+Type;(Original/ Counter);the way in which judgment came to be entered 
+CloselyConnected;(Claim1,Claim2);claims are so closely connected that it would be better to treat them toghether in order to avoid irreconcilable judgments
+Related;(Claim1,Claim2);a claim is the counterclaim to another

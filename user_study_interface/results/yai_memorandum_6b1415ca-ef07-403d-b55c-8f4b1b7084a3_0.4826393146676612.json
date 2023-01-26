@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 3,
+    "What is your unique Prolific ID?": "615c3ba29471ad2ac36358d4",
+    "Age": "22",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C2 (very high)",
+    "What is your experience in legal writing?": "None",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 3,
+                "optimal": 5
+            },
+            "elapsed_seconds": 655
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 4,
+                "optimal": 4
+            },
+            "elapsed_seconds": 535
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 5,
+                "archetypal": 4,
+                "optimal": 3
+            },
+            "elapsed_seconds": 640
+        }
+    ],
+    "qualitative_feedback": "Shorter explanations were more organised and to the point and therefore easier to understand. However, when compared to longer explanations, significant information was missing at times.  Longer explanations on the other hand had a lot of info and jargon that was not written in full but used abbreviations from the start (unless it was a legal term). This caused difficulty understanding the whole explanation as I had to go back and check what the unexplained abbreviations mean. In addition, answers to headings sometimes went of on a tangent. I'd suggest that full words be used first and then abbreviated before just jumping to calling the diagnosis PTSD so the reader is not confused. Explanations should be brief, to the point and concise."
+}

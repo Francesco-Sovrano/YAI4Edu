@@ -1,0 +1,47 @@
+{
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "optimal": 4,
+                "random": 5
+            },
+            "elapsed_seconds": 239
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 5,
+                "optimal": 4,
+                "random": 4
+            },
+            "elapsed_seconds": 67
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 2,
+                "optimal": 3,
+                "random": 4
+            },
+            "elapsed_seconds": 29
+        }
+    ],
+    "qualitative_feedback": "The explanations vary in difficulty for the regular person to understand. Some of the language can be simplified more depending on who the intended reader might be. Overall the explanations are very informative. Wishing you the best of luck with your study, and I hope you find my feedback helpful."
+}

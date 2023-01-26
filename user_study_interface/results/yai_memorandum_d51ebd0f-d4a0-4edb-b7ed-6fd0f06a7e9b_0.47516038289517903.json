@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 3,
+    "What is your unique Prolific ID?": "5fecaa50f4e233e5a4ae1d5d",
+    "Age": "21",
+    "Gender": "Male",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "B2",
+    "What is your experience in legal writing?": "None",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "optimal": 4,
+                "archetypal": 5
+            },
+            "elapsed_seconds": 159
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "optimal": 4,
+                "archetypal": 5
+            },
+            "elapsed_seconds": 80
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "optimal": 4,
+                "archetypal": 5
+            },
+            "elapsed_seconds": 74
+        }
+    ],
+    "qualitative_feedback": "These explanations cover most loop holes possible by giving rich depth of information,which makes it simple for someone to read and understand with having doubts on what is presented. \nThere are no improvements to be done for these explanations "
+}
