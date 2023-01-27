@@ -26,11 +26,13 @@ The file system of this repository is organised as follows:
 - Folder [library_server](library_server) contains the server-side part of both user_study_interface and YAI4Edu.
 
 In the root directory it is possible to find a "setup.sh" script to install the software. To run the code, execute the following command ```./server.sh```. After running the "server.sh" script, you can access the the web applications through your browser at [http://localhost:8017](http://localhost:8017) for the user study software, and at [http://localhost:8015](http://localhost:8015) for YAI4Edu.
+However, it may take some time (especially without GPU) to successfully start the web applications because they will need to extract questions. For a quick demo run only the user study software.
 
 In order to successfully launch the aforementioned software you need to: 
-- Find the copyrighted file "[2013]Excerpts of UNITED STATES LEGAL LANGUAGE AND CULTURE - AN INTRODUCTION TO THE US COMMON LAW SYSTEM" and add it to [yai4edu_interface/documents](yai4edu_interface/documents) and to [library_server/documents/edu/excerpts](library_server/documents/edu/excerpts).
+- Find the PDF of "Brostoff, Teresa Kissane, Teresa Brostoff, and Ann Sinsheimer. United States legal language and culture: An introduction to the US common law system. Oxford University Press, 2013." and add it to [yai4edu_interface/documents](yai4edu_interface/documents) and to [library_server/documents/edu/excerpts](library_server/documents/edu/excerpts).
 - Download enough BVA cases by running the script [library_server/documents/bva/bva_scraper.py](library_server/documents/bva/bva_scraper.py).
 - Run the script [library_server/documents/edu/encyclopaedia/cornell_law_scraper.py](library_server/documents/edu/encyclopaedia/cornell_law_scraper.py).
+- Open [library_server/server_interface.py](library_server/server_interface.py) and check whether the path to the trained model at line 132 is correct. Do the same with [library_server/server_interface_bva.py](library_server/server_interface_bva.py), line 134.
 
 **N.B.** Before being able to run the setup.sh scripts you have to install: virtualenv, python3-dev, python3-pip and make. 
 
