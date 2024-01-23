@@ -21,6 +21,8 @@ To evaluate the Intelligent Explanation Generator, we ran a user-study (whose re
 ## Usage and Installation
 This project has been tested on Debian 9 and macOS Mojave 10.14 with Python 3.7. 
 
+Download [pytorch_model.bin](https://zenodo.org/records/10555604/files/pytorch_model.bin?download=1) from [https://doi.org/10.5281/zenodo.10555603](https://doi.org/10.5281/zenodo.10555603) and move it inside [question_extractor/data/models/distilt5-disco-qaamr-multi](question_extractor/data/models/distilt5-disco-qaamr-multi).
+
 The file system of this repository is organised as follows:
 - In folder [user_study_interface](user_study_interface) it is possible to find the results of the user studies discussed in the 2 aforementioned papers and the code used for running the user study (i.e., the client-side interface).
 - Folder [yai4edu_interface](yai4edu_interface) contains the client-side part of YAI4Edu.
