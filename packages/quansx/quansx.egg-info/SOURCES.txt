@@ -1,0 +1,8 @@
+setup.py
+quansx/__init__.py
+quansx/question_answer_extraction.py
+quansx.egg-info/PKG-INFO
+quansx.egg-info/SOURCES.txt
+quansx.egg-info/dependency_links.txt
+quansx.egg-info/requires.txt
+quansx.egg-info/top_level.txt

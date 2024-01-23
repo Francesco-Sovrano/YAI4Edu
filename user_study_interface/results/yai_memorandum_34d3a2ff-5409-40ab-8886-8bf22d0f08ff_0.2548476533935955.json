@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 3,
+    "What is your unique Prolific ID?": "6133918382b1a9266a7900b5",
+    "Age": "26",
+    "Gender": "Male",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C2 (very high)",
+    "What is your experience in legal writing?": "None",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "optimal": 5,
+                "archetypal": 4
+            },
+            "elapsed_seconds": 379
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 5,
+                "optimal": 5,
+                "archetypal": 4
+            },
+            "elapsed_seconds": 253
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 5,
+                "optimal": 4,
+                "archetypal": 5
+            },
+            "elapsed_seconds": 206
+        }
+    ],
+    "qualitative_feedback": "Some of the explanations needed a bit more detail as they were slightly general (like the what, why, and how sections). Other than that, the more detailed explanations that were not filled with too much legal jargon were beneficial to someone who is not a legal expert, like me."
+}

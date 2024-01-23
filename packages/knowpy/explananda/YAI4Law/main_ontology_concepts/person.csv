@@ -1,0 +1,17 @@
+SubClasses;Values;Description
+Nature;(Legal/Natural);the nature of a person
+Role;(Claimant/ Defendant/Third Party);the role that a person has in a specific claim
+Type;(Consumer/Business/Employer/Employee/Insurer/Trust/...);the type of person with regard to a specific claim
+Work;(Country, Court);the place where a person carries out his work (Court may be undefined)
+HabitualWork;(Country, Court);the place where a person habitually carries out his work (Court may be undefined). The country where the work is habitually carried out shall not be deemed to have changed if he is temporarily employed in another country.
+PlaceOfBusiness;(Country, Court);the place of business through wich the employee is engaged
+ActivityIn;(Country, Court);the place where the person pursues commercial or professional activities (Court may be undefined)
+Domicile;(Country, Court);the place where the person is domicilied (Court may be undefined)
+Establishment;(Country, Court);the place where a (legal) person has a branch, agency or other establishment (Court may be undefined)
+Citizenship;(Country);the person's citizenship
+HabitualResidence;(Country, Court);the place where the person has habitual residence (Court may be undefined)
+PlaceOfFormation;(Country, Court);the place where a company or other legal person or association of natural or legal person has been formed
+PlaceOfIncorporation;(Country, Court);the place where a company or other legal person or association of natural or legal person has been incorporated
+RegisteredOffice;(Country, Court);the place where a company or other legal person or association of natural or legal person has been registered
+PrincipalPlaceOfBusiness;(Country, Court);the place where a company or other legal person or association of natural or legal person habitually carries out its work/business
+StatutorySeat;(Country, Court); the place where a company or other legal person or association of natural or legal person has  its headquarters location

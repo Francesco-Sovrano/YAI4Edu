@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 1,
+    "What is your unique Prolific ID?": "60f2a6c4f1c80d054ea001ef",
+    "Age": "22",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C2 (very high)",
+    "What is your experience in legal writing?": "Low",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 5,
+                "optimal": 4
+            },
+            "elapsed_seconds": 138
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 2,
+                "archetypal": 4,
+                "optimal": 5
+            },
+            "elapsed_seconds": 76
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 4,
+                "optimal": 2
+            },
+            "elapsed_seconds": 124
+        }
+    ],
+    "qualitative_feedback": "MOST OF THE EXPLANATIONS ARE NOT SIMPLE TO UNDERSTAND WHEN FIRST READ, READING THE EXPLANATIONS A SECOND TIME AND A QUICK GOOGLE SEARCH OF SOME OF THE TERMINOLOGIES USED WAS NEEDED "
+}

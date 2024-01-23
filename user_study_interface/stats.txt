@@ -1,0 +1,292 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Printing statistics
+####################################################################################################
+Topic: all
+    optimal: {
+    "mean": "3.9313725490196076 \u00b1 0.979460341490983",
+    "median": "4.0 (3.0,5.0)"
+}
+    archetypal: {
+    "mean": "3.712418300653595 \u00b1 1.0141044706104716",
+    "median": "4.0 (3.0,4.0)"
+}
+    random: {
+    "mean": "3.5588235294117645 \u00b1 1.0407406495266174",
+    "median": "4.0 (3.0,4.0)"
+}
+    elapsed_seconds: {
+    "mean": "263.797385620915 \u00b1 220.44056776086757",
+    "median": "196.0 (114.25,336.75)"
+}
+####################################################################################################
+Topic: my:memorandum
+    optimal: {
+    "mean": "4.147058823529412 \u00b1 0.9538061917610691",
+    "median": "4.0 (3.25,5.0)"
+}
+    archetypal: {
+    "mean": "3.7450980392156863 \u00b1 0.9464720302860525",
+    "median": "4.0 (3.0,4.0)"
+}
+    random: {
+    "mean": "3.715686274509804 \u00b1 0.9432676930712739",
+    "median": "4.0 (3.0,4.0)"
+}
+    elapsed_seconds: {
+    "mean": "415.1372549019608 \u00b1 269.39609438686335",
+    "median": "335.0 (221.75,543.0)"
+}
+####################################################################################################
+Topic: my:disability
+    optimal: {
+    "mean": "4.019607843137255 \u00b1 0.8515314019846454",
+    "median": "4.0 (3.0,5.0)"
+}
+    archetypal: {
+    "mean": "3.8333333333333335 \u00b1 0.9909723224141276",
+    "median": "4.0 (3.0,5.0)"
+}
+    random: {
+    "mean": "3.5392156862745097 \u00b1 1.0907055517133184",
+    "median": "4.0 (3.0,4.0)"
+}
+    elapsed_seconds: {
+    "mean": "204.02941176470588 \u00b1 150.43971210450167",
+    "median": "158.0 (89.5,272.0)"
+}
+####################################################################################################
+Topic: my:element
+    optimal: {
+    "mean": "3.627450980392157 \u00b1 1.047139601789701",
+    "median": "4.0 (3.0,4.0)"
+}
+    archetypal: {
+    "mean": "3.5588235294117645 \u00b1 1.0807906457027296",
+    "median": "4.0 (3.0,4.0)"
+}
+    random: {
+    "mean": "3.4215686274509802 \u00b1 1.0612263947794303",
+    "median": "3.0 (3.0,4.0)"
+}
+    elapsed_seconds: {
+    "mean": "172.22549019607843 \u00b1 125.35705137981691",
+    "median": "140.0 (83.25,205.75)"
+}
+####################################################################################################
+All topics:
+    optimal: {
+    "mean": "3.9313725490196076 \u00b1 0.979460341490983",
+    "median": "4.0 (3.0,5.0)"
+}
+    archetypal: {
+    "mean": "3.712418300653595 \u00b1 1.0141044706104716",
+    "median": "4.0 (3.0,4.0)"
+}
+    random: {
+    "mean": "3.5588235294117645 \u00b1 1.0407406495266174",
+    "median": "4.0 (3.0,4.0)"
+}
+    elapsed_seconds: {
+    "mean": "263.797385620915 \u00b1 220.44056776086757",
+    "median": "196.0 (114.0,337.0)"
+}
+----------------------------------------------------------------------------------------------------
+all
+Random vs Archetypal: {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 43039.0,
+            "p_value": 0.03555326074020745,
+            "common_language_effect_size": 0.4596415908411295,
+            "rank_biserial_correlation": 0.08071681831774102
+        },
+        "Yes is greater": {
+            "U": 43039.0,
+            "p_value": 0.9644841089949724,
+            "common_language_effect_size": 0.4596415908411295,
+            "rank_biserial_correlation": 0.08071681831774102
+        }
+    }
+}
+Random vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 37340.5,
+            "p_value": 2.9445285651715713e-06,
+            "common_language_effect_size": 0.3987835875090777,
+            "rank_biserial_correlation": 0.20243282498184456
+        },
+        "Yes is greater": {
+            "U": 37340.5,
+            "p_value": 0.9999970621270112,
+            "common_language_effect_size": 0.3987835875090777,
+            "rank_biserial_correlation": 0.20243282498184456
+        }
+    }
+}
+Archetypal vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 41019.5,
+            "p_value": 0.0027294476967881912,
+            "common_language_effect_size": 0.4380740313554616,
+            "rank_biserial_correlation": 0.12385193728907684
+        },
+        "Yes is greater": {
+            "U": 41019.5,
+            "p_value": 0.9972745760268676,
+            "common_language_effect_size": 0.4380740313554616,
+            "rank_biserial_correlation": 0.12385193728907684
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------
+my:memorandum
+Random vs Archetypal: {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 5192.5,
+            "p_value": 0.49101554725140906,
+            "common_language_effect_size": 0.49908688965782394,
+            "rank_biserial_correlation": 0.00182622068435212
+        },
+        "Yes is greater": {
+            "U": 5192.5,
+            "p_value": 0.5099825273214817,
+            "common_language_effect_size": 0.49908688965782394,
+            "rank_biserial_correlation": 0.00182622068435212
+        }
+    }
+}
+Random vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 3838.0,
+            "p_value": 0.0003258495945187012,
+            "common_language_effect_size": 0.3688965782391388,
+            "rank_biserial_correlation": 0.2622068435217224
+        },
+        "Yes is greater": {
+            "U": 3838.0,
+            "p_value": 0.9996771242896132,
+            "common_language_effect_size": 0.3688965782391388,
+            "rank_biserial_correlation": 0.2622068435217224
+        }
+    }
+}
+Archetypal vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 3925.5,
+            "p_value": 0.0007326021597578947,
+            "common_language_effect_size": 0.37730680507497116,
+            "rank_biserial_correlation": 0.24538638985005767
+        },
+        "Yes is greater": {
+            "U": 3925.5,
+            "p_value": 0.9992736788895444,
+            "common_language_effect_size": 0.37730680507497116,
+            "rank_biserial_correlation": 0.24538638985005767
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------
+my:disability
+Random vs Archetypal: {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 4416.5,
+            "p_value": 0.026215260884548546,
+            "common_language_effect_size": 0.42450019223375624,
+            "rank_biserial_correlation": 0.15099961553248753
+        },
+        "Yes is greater": {
+            "U": 4416.5,
+            "p_value": 0.9739346401846455,
+            "common_language_effect_size": 0.42450019223375624,
+            "rank_biserial_correlation": 0.15099961553248753
+        }
+    }
+}
+Random vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 3930.0,
+            "p_value": 0.0007971721645320888,
+            "common_language_effect_size": 0.37773933102652824,
+            "rank_biserial_correlation": 0.24452133794694353
+        },
+        "Yes is greater": {
+            "U": 3930.0,
+            "p_value": 0.9992095888399829,
+            "common_language_effect_size": 0.37773933102652824,
+            "rank_biserial_correlation": 0.24452133794694353
+        }
+    }
+}
+Archetypal vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 4728.5,
+            "p_value": 0.11798001940388364,
+            "common_language_effect_size": 0.4544886582083814,
+            "rank_biserial_correlation": 0.09102268358323717
+        },
+        "Yes is greater": {
+            "U": 4728.5,
+            "p_value": 0.8825144928522995,
+            "common_language_effect_size": 0.4544886582083814,
+            "rank_biserial_correlation": 0.09102268358323717
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------
+my:element
+Random vs Archetypal: {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 4767.0,
+            "p_value": 0.1417159273905727,
+            "common_language_effect_size": 0.4581891580161476,
+            "rank_biserial_correlation": 0.08362168396770475
+        },
+        "Yes is greater": {
+            "U": 4767.0,
+            "p_value": 0.8588373700430506,
+            "common_language_effect_size": 0.4581891580161476,
+            "rank_biserial_correlation": 0.08362168396770475
+        }
+    }
+}
+Random vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 4597.5,
+            "p_value": 0.06785263049422897,
+            "common_language_effect_size": 0.4418973471741638,
+            "rank_biserial_correlation": 0.11620530565167242
+        },
+        "Yes is greater": {
+            "U": 4597.5,
+            "p_value": 0.932470565630929,
+            "common_language_effect_size": 0.4418973471741638,
+            "rank_biserial_correlation": 0.11620530565167242
+        }
+    }
+}
+Archetypal vs Optimal {
+    "mannwhitneyu": {
+        "Yes is less": {
+            "U": 5021.0,
+            "p_value": 0.3271761585544487,
+            "common_language_effect_size": 0.48260284505959244,
+            "rank_biserial_correlation": 0.03479430988081511
+        },
+        "Yes is greater": {
+            "U": 5021.0,
+            "p_value": 0.6737185325237445,
+            "common_language_effect_size": 0.48260284505959244,
+            "rank_biserial_correlation": 0.03479430988081511
+        }
+    }
+}

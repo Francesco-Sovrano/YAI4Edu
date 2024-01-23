@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.log
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# MAC-only files
+.DS_Store
+
+# pickle files
+*.pkl
+# graphml files
+*.graphml
+*zip
+
+pytorch_model.bin

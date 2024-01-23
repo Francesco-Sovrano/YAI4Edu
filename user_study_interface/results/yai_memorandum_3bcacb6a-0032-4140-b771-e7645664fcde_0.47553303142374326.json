@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 1,
+    "What is your unique Prolific ID?": "Mind Action Mathematics Textbook ",
+    "Age": "21",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "B2",
+    "What is your experience in legal writing?": "None",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "random": 4,
+                "optimal": 4
+            },
+            "elapsed_seconds": 939
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 3,
+                "random": 3,
+                "optimal": 4
+            },
+            "elapsed_seconds": 519
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "archetypal": 2,
+                "random": 3,
+                "optimal": 3
+            },
+            "elapsed_seconds": 395
+        }
+    ],
+    "qualitative_feedback": "They were quite overwhelming, especially for someone who isn't familiar with US Law."
+}

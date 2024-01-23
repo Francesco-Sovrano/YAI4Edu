@@ -1,0 +1,12 @@
+SubClasses;Values;Description
+Matter;Civil / Commercial;the contract's matter
+Type;Sale of goods / Provision of services;The main type of the contract
+TypeConsideration;Sale / Loan / Transport / Accomodation / Insurance / Employment /…;The specific type of contract, with regard to its consideration
+Form;Oral / Written;the contract's form
+Obligation;Person + Obligation (Sale / Loan / Transport / Accomodation / Insurance / Employment /…);A person's obligation with regard to a contract
+Consent;Person + Country;The consent given by a person, according to the law of a specific Country
+Object;(Credit/Loan/LargeRisk/InterestInFinancialInstrument/Risk/…);The object described in the contract consideration
+Validity;(RomeRegulation/ItalianLaw, FrenchLaw,...);The law for which the contract is valid
+Clause;(Expression of the clause);A specific clause of the contract
+ObligationTarget;Person + Target;The object of a person’s specific obligation in the contract
+ObligationTargetUse;Person + Use;The destination use of the object of the person’s obligation in the contract

@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 3,
+    "What is your unique Prolific ID?": "6130a22afe31ea9b5ece3d78",
+    "Age": "21",
+    "Gender": "Male",
+    "Are you a legal expert?": "Yes",
+    "What is your proficiency in written English?": "C1",
+    "What is your experience in legal writing?": "Medium",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 3,
+                "optimal": 3,
+                "archetypal": 4
+            },
+            "elapsed_seconds": 293
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 2,
+                "optimal": 3,
+                "archetypal": 3
+            },
+            "elapsed_seconds": 142
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 2,
+                "optimal": 3,
+                "archetypal": 2
+            },
+            "elapsed_seconds": 83
+        }
+    ],
+    "qualitative_feedback": "They are good explanations and understandable, however I feel like they need more legal sense and more legal experience. "
+}

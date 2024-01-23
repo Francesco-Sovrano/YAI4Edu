@@ -1,0 +1,18 @@
+[
+    {
+        "@id": "my:memorandum",
+        "my:same": "my:memo"
+    },
+    {
+        "@id": "my:memorandum",
+        "my:same": "my:memorandlm"
+    },
+    {
+        "@id": "my:legal_memorandum",
+        "my:same": "my:memorandum"
+    },
+    {
+        "@id": "my:legal_memorandum",
+        "my:same": "my:legal_memo"
+    }
+]

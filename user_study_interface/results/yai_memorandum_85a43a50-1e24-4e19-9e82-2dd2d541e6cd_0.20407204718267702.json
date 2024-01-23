@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 2,
+    "What is your unique Prolific ID?": "614d9e7f0ec50e3fc7881993",
+    "Age": "22",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C1",
+    "What is your experience in legal writing?": "Medium",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 4,
+                "optimal": 5
+            },
+            "elapsed_seconds": 1090
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 2,
+                "archetypal": 4,
+                "optimal": 3
+            },
+            "elapsed_seconds": 605
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 4,
+                "optimal": 3
+            },
+            "elapsed_seconds": 323
+        }
+    ],
+    "qualitative_feedback": "The explanations were clear, gave enough details, and made sure the reader understood what was being said. The fact that they were able to refer you to a specific document made it easier for me to understand what I was reading as it added onto the information that was already provided."
+}

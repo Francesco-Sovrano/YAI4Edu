@@ -1,0 +1,54 @@
+{
+    "Background Knowledge Rating": 1,
+    "What is your unique Prolific ID?": "6130e97d4106299f8c6120fa",
+    "Age": "19",
+    "Gender": "Female",
+    "Are you a legal expert?": "No",
+    "What is your proficiency in written English?": "C2 (very high)",
+    "What is your experience in legal writing?": "None",
+    "evaluation_list": [
+        {
+            "topic": {
+                "uri": "my:memorandum",
+                "label": "memorandum",
+                "topic": "the proper form of a legal memorandum",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 3,
+                "archetypal": 3,
+                "optimal": 3
+            },
+            "elapsed_seconds": 840
+        },
+        {
+            "topic": {
+                "uri": "my:disability",
+                "label": "disability",
+                "topic": "the effects of a disability",
+                "api": "http://explainability.cs.unibo.it:8019/overview"
+            },
+            "evaluation_dict": {
+                "random": 4,
+                "archetypal": 4,
+                "optimal": 4
+            },
+            "elapsed_seconds": 526
+        },
+        {
+            "topic": {
+                "uri": "my:element",
+                "label": "elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "topic": "the elements of the legal standard a veteran needs to satisfy for a PTSD disability claim",
+                "api": "http://explainability.cs.unibo.it:8021/overview"
+            },
+            "evaluation_dict": {
+                "random": 3,
+                "archetypal": 3,
+                "optimal": 3
+            },
+            "elapsed_seconds": 485
+        }
+    ],
+    "qualitative_feedback": "They were pretty straightforward and easy to understand, especially because descriptions relating to the law or topics that are difficult to understand are always filled with difficult jargon, but this simplified version made it easy to understand."
+}
